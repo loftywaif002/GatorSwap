@@ -1,0 +1,154 @@
+
+ /* Remove the navbar's default rounded borders and increase the bottom margin */
+    .navbar {
+	   padding: 20px;
+     padding-bottom: 10px;
+      margin-bottom: 5px;
+      border-radius: 0;
+	   background-color: #26215f;
+
+
+    }
+	.btn {
+    
+    font-size:16px;
+    block-align:center;
+}
+
+    /* Remove the jumbotron's default bottom margin */
+     .jumbotron {
+      margin-bottom: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #53565A;
+      padding: 25px;
+    }
+	
+	a {
+        color: #3399ff;
+		text-align: center; 
+	}
+
+    .footerLinks{
+      color:white;
+
+    }
+
+    .headerLinks{
+      color:white;
+
+    }
+    .footerLinks:hover{
+      color:#C99700;
+
+    }
+
+    .headerLinks:hover{
+      color:#C99700;
+
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+    color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a:hover {
+    color: #C99700;
+    }    
+
+  .navbar-brand>img {
+    max-height: 100%;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+ 
+ 
+    /* probably not needed anymore, but doesn't hurt */
+    -o-object-fit: contain;
+    object-fit: contain; 
+ 
+ }
+ 
+ .centered-search
+ {
+     position: absolute;
+     width: 100%;
+     left: 0;
+     text-align: center;
+     margin:0 auto;
+ }
+ 
+ #search-button
+ {
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-top: 10px;
+   font-size: 14px;
+ }
+ /*
+ .search-input {
+   margin-top: 10px;
+   width: 600px !important; 
+   margin-left: 10px;
+ }
+ */
+ 
+ /* Small devices (tablets, 768px and up) */
+@media (min-width: 600px) { .search-input { width: 250px !important; margin-top: 10px; margin-left: 10px;}}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1000px) { .search-input { width: 450px !important; margin-top: 10px; margin-left: 10px;} }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1600px) { .search-input { width: 850px !important; margin-top: 10px; margin-left: 10px;} }
+ 
+ #menuitem
+ {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-right: 5px;
+   margin-top: 10px;
+ 
+ }
+
+ #logo{
+  margin-right: 10px;
+
+ }
+ 
+ .item 
+{
+     
+    height: 400px; 
+    position: relative; 
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+
+ 
+}
+.inner-item {
+  
+  possition: static;
+  height :100%;
+  background-color: translucent;
+  padding-bottom: 0px;
+
+}
+ .thumbnail
+{
+    margin-bottom: 10px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    
+  
+}
+
+ .caption {
+   padding-bottom:10px;
+
+ }
+
